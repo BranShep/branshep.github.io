@@ -295,8 +295,9 @@ iframe {
   color: #5f6b77;
 }
 
-#profile-img {
+#profile-pic {
   height: 200px;
+  width: 200px;
 }
 /* Work Section */
 .experience .item {
