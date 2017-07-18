@@ -284,6 +284,7 @@ iframe {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 
 .projects .item {
@@ -300,6 +301,10 @@ iframe {
 }
 .projects .item .title a:hover {
   color: #5f6b77;
+}
+
+.project-images {
+  width: 30%;
 }
 
 #profile-pic {
