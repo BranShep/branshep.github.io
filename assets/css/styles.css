@@ -279,6 +279,13 @@ iframe {
   right: 0;
 }
 /* Projects Section */
+.image-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .projects .item {
   margin-bottom: 30px;
 }
