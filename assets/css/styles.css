@@ -101,6 +101,11 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
+
+.modal-body {
+  width: 100vw;
+  height: 100vh;
+}
 /*
 iframe {
 
