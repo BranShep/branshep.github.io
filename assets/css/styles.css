@@ -279,6 +279,10 @@ iframe {
   right: 0;
 }
 /* Projects Section */
+.carousel-image {
+  height: calc(100vh - 200px);
+}
+
 .image-bar {
   display: flex;
   flex-direction: row;
