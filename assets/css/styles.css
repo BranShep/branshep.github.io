@@ -285,6 +285,8 @@ iframe {
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .projects .item {
