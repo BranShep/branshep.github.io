@@ -167,8 +167,8 @@ iframe {
 }
 /* ======= Sections======= */
 .sections-wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .section {
   margin-bottom: 30px;
@@ -280,9 +280,8 @@ iframe {
   right: 0;
 }
 /* Projects Section */
-.carousel-image {
-  height: 200px;
-  width: 200px;
+.carousel-img {
+  width: 400px;
 }
 
 .image-bar {
@@ -290,9 +289,6 @@ iframe {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
-  padding-left: 25px;
-  padding-right: 25px;
   margin-top: 20px;
 }
 
@@ -315,6 +311,8 @@ iframe {
 .project-images {
   height: 100px;
   cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 #profile-pic {
