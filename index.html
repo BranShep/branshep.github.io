@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <title>Brandon Shepherd - Web Developer</title>
-    <!-- Meta -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Brandon Shepherd - Web Developer">
@@ -32,375 +35,24 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-</head> 
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-<body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">                       
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-            <img class="profile-image img-responsive pull-left" id="profile-pic" src="assets/images/picture.png" alt="James Lee" />
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
 
-            <div class="profile-content pull-left">
-                <h1 class="name">Brandon Shepherd</h1>
-                <h2 class="desc">Web App Developer</h2>   
-                <ul class="social list-inline">                 
-                    <li><a href="https://www.linkedin.com/in/brandon-shepherd-4916a296" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/BranShep" target="_blank"><i class="fa fa-github-alt"></i></a></li>                                   
-                </ul> 
-            </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:brandonkshepherd@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
-        </div><!--//container-->
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I love programming! Been coding for the past two years and I can't get enough of it. React and React Native are my jam. Javascript is the language I speak. Love learning new technologies and creating cool applications.</p>    
-         
-                            <p>Besides programming I love to eat my weight in popcorn and watch a good flick at the movie theatres. I love eating! I live way too close to a McDonalds. To make sure I don't get too fat I run 5 miles every day and play a lot of basketball and soccer. I love the Utah Jazz (although I am currently a band wagon Warriors fan ha ha). The two greatest tv shows ever made are Game of Thrones and Silcon Valley.</p>
-                            
-                            <p>Please contact me! I want to work for you!</p>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-    
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
-                        <div class="content">    
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.cinderboard.com" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/cinder_icon.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://www.cinderboard.com" target="_blank">Cinder Co. App & Website</a></h3>
-                                    <p>I built an app (ios & android) and website for Cinder Co. to more easily handle their day to day operations. The app and website have the following features:<br>
-                                        - display company orders<br>
-                                        - create new orders<br>
-                                        - track order statuses<br>
-                                        - display client info<br>
-                                        - navigate to client address<br>
-                                        - internal messaging system<br>
-                                        - archive orders<br>
-                                        - push notifications (order updates and messages)<br>
-                                        <br>
-                                        I built the app using React Native and firebase as the backend. The website was built with React, Node.js and also uses the same firebase database.<br>
-                                    </p>
-                                    <p><a class="more-link" href="https://cinderboard.com/" target="_blank"><i class="fa fa-external-link"></i>http://www.cinderboard.com</a></p>
-                                </div><!--//desc-->  
-                                
-                                <div class="image-bar">
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0243.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0244.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0245.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0246.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0247.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0248.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0249.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0250.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0251.PNG" alt="project name" /></a>
-                                </div>
-                            </div><!--//item-->
-
-                            <!--begin modal window-->
-                            <div class="modal fade" id="myModal">
-                            <div class="modal-dialog">
-                            <div class="modal-content">
-                            <div class="modal-header">
-                            <div class="pull-left">My Gallery Title</div>
-                            <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-                            </div>
-                            <div class="modal-body">
-
-                            <!--begin carousel-->
-                            <div id="myGallery" class="carousel slide" data-interval="false">
-                            <div class="carousel-inner">
-                            <div class="item active"> <img class="carousel-img" src="assets/images/IMG_0243.PNG" alt="item0">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 0  description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0244.PNG" alt="item1">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 1 description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0245.PNG" alt="item2">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 2  description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0246.PNG" alt="item3">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 3 description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0247.PNG" alt="item4">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 4 description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0248.PNG" alt="item5">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 5 description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0249.PNG" alt="item6">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 5 description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0250.PNG" alt="item7">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 5 description.</p>
-                            </div>
-                            </div>
-                            <div class="item"> <img class="carousel-img" src="assets/images/IMG_0251.PNG" alt="item8">
-                            <div class="carousel-caption">
-                            <h3>Heading 3</h3>
-                            <p>Slide 5 description.</p>
-                            </div>
-                            </div>
-                            <!--end carousel-inner--></div>
-                            <!--Begin Previous and Next buttons-->
-                            <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-                            <!--end carousel--></div>
-
-                            <!--end modal-body--></div>
-                            <div class="modal-footer">
-                            <div class="pull-left">
-                            <small>Photographs by <a href="http://lorempixel.com" target="new">Lorempixel.com</a></small>
-                            </div>
-                            <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
-                            <!--end modal-footer--></div>
-                            <!--end modal-content--></div>
-                            <!--end modal-dialoge--></div>
-                            <!--end myModal-->></div>
-
-                            <hr class="divider" />
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.cinderboard.com" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/home_buyer_icon.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://www.cinderboard.com" target="_blank">Home Buyer App</a></h3>
-                                    <p>
-                                        React Native ios/android app for home buyers to rate and compare the different homes on the market.
-                                    </p>
-
-                                    <p>React Native, Expo, Redux, Firebase, ES6 </p>
-                                    <p><a class="more-link" href="https://cinderboard.com/" target="_blank"><i class="fa fa-external-link"></i>http://www.cinderboard.com</a></p>
-                                </div><!--//desc-->   
-                                
-                                <div class="image-bar">
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0252.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0253.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0254.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0255.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0256.PNG" alt="project name" /></a>
-                                        <a data-toggle="modal" href="#myModal"><img class="project-images" src="assets/images/IMG_0257.PNG" alt="project name" /></a>
-                                </div>
-                            </div><!--//item-->
-
-                            <hr class="divider" />
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://chasepn.com" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/chasepn.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="http://www.chasepn.com" target="_blank">chaSEPN</a></h3>
-                                    <p>chaSEPN is a site created for my friend to create his own espn-like power rankings for NBA teams.</p>
-                                    <h5 class="title">Tech Used</h5>
-                                    <p>Angular, Node, Postres</p>
-                                    <p><a class="more-link" href="http://chasepn.com/" target="_blank"><i class="fa fa-external-link"></i>http://www.chasepn.com</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-
-
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Freelance Web/Mobile Developer <span class="place"><a href="#">Cinder Co.</a></span> <span class="year">(2017)</span></h3>
-                                <p>I built an app (ios & android) and website for Cinder Co. to more easily handle their day to day operations. The app and website have the following features:<br>
-                                        &nbsp;&nbsp;- display company orders<br>
-                                        &nbsp;&nbsp;- create new orders<br>
-                                        &nbsp;&nbsp;- track order statuses<br>
-                                        &nbsp;&nbsp;- display client info<br>
-                                        &nbsp;&nbsp;- navigate to client address<br>
-                                        &nbsp;&nbsp;- internal messaging system<br>
-                                        &nbsp;&nbsp;- archive orders<br>
-                                        &nbsp;&nbsp;- push notifications (order updates and messages)<br>
-
-                                        <p>React Native, Expo, Redux, React, Firebase, ES6, HTML, CSS3</p>
-                                </p>
-                            </div><!--//item-->
-
-                            <hr class="divider" />
-
-                            <div class="item">
-                                <h3 class="title">Mobile Developer (React Native) - <span class="place"><a href="#">DevMountain Student Delelopers</a></span> <span class="year">(2016)</span></h3>
-                                <p>Built an app for home buyers to rate and compare the different homes they are looking to buy.</p>
-
-                                <p>React Native, Expo, Redux, Firebase, ES6 </p>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Orem, UT</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:brandonkshepherd@gmail.com">brandonkshepherd@gmail.com</a></li>
-                                <li><i class="fa fa-phone"></i><span class="sr-only">Phone:</span>801-430-8667</li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">https://branshep.github.io</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                I spend most of my time programming using React and React Native. I learn a little more about javascript everyday. Looking to expand my skillset to include C# and Java.
-                            </p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">React, React Native, Redux<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Angular 1<span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Node, Express<span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Postgres<span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                            
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
-                <aside class="testimonials aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
-                            </div><!--//item-->
-                            
-                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p> 
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Dev Mountain Coding School (2016)</h3>
-                                <h4 class="university">Angular, Javascript, Html, CSS, Node, Postgres <span class="year">(2016)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Portuguese:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
- 
-    <!-- Javascript -->          
+     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
@@ -412,7 +64,6 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
-</body>
-</html> 
-
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
